@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إرسال رسالة</title>
+</head>
+<body>
+    <form action="submit_message.php" method="POST">
+        <label for="name">اسم المرسل:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <button type="submit">إرسال</button>
+    </form>
+</body>
+</html>
